@@ -1,0 +1,10 @@
+appId: com.browserstack.Sample-iOS
+---
+- launchApp
+
+- tapOn:
+    text: "Web View"
+- tapOn:
+    text: "Get started free"
+- assertVisible: "Create a FREE Account"
+- runFlow: subflows/signup-ios.yaml
