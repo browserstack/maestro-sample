@@ -1,0 +1,6 @@
+{
+  "name": "maestro-sample",
+  "version": "1.0.0",
+  "description": "BrowserStack Maestro sample app",
+  "dependencies": {}
+}
